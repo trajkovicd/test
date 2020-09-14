@@ -12,7 +12,7 @@ RUN chown -R root:root /dist \
 
 USER root
 
-VOLUME /opt/ssstm
+# VOLUME /opt/ssstm
 
 STOPSIGNAL SIGTERM
 
